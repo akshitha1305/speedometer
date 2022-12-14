@@ -1,0 +1,57 @@
+/* Write your CSS here */
+body {
+  box-sizing: border-box;
+}
+.bg-container {
+  background-size: cover;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.heading {
+  font-size: 40px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  color: #ffffff;
+}
+.image {
+  width: 570px;
+}
+.para1 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.para2 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.button-container {
+  margin-top: 15px;
+}
+.button1 {
+  padding: 7px;
+  border-radius: 7px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  margin-right: 20px;
+  font-size: 7px;
+  cursor: pointer;
+}
+.button2 {
+  padding: 7px;
+  border-radius: 7px;
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  font-size: 7px;
+  cursor: pointer;
+}
